@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Arial', sans-serif; }
+
+h1 {
+  color: #ededed;
+  font-size: 58px;
+  font-weight: 800;
+  text-transform: uppercase; }
+
+.pixel {
+  background: url(../images/podlozhka.jpg);
+  position: absolute;
+  z-index: 200;
+  width: 1920px;
+  height: 950px;
+  opacity: 0.2; }
+
+.header {
+  background: #151824 url(../images/bg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border: 1px solid red; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  max-width: 1170px; }
+
+.header-info {
+  position: relative;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.logo {
+  width: 195px;
+  height: 96px;
+  padding-top: 54px; }
+
+.box-clock-place {
+  width: 500px;
+  height: 65px;
+  padding-top: 35px;
+  padding-bottom: 35px; }
+  .box-clock-place .box-clock, .box-clock-place .box-place {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: #dcdcdc;
+    font-size: 24px;
+    font-weight: 800; }
+    .box-clock-place .box-clock .clock, .box-clock-place .box-place .clock {
+      padding-right: 26px;
+      padding-left: 13px;
+      padding-top: 5px; }
+    .box-clock-place .box-clock .place, .box-clock-place .box-place .place {
+      padding-right: 22px;
+      padding-left: 13px;
+      padding-top: 3px; }
+  .box-clock-place .box-place {
+    padding-top: 10px; }
+
+.header-tel {
+  width: 210px;
+  height: 62px;
+  color: #bebebe;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.header-text {
+  max-width: 880px;
+  padding-top: 87px;
+  padding-bottom: 50px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 800; }
+  .header-text .hdtext-masterclass {
+    color: #bebebe; }
+  .header-text .hdtext-korp {
+    color: #1089dc;
+    padding-bottom: 25px; }
+  .header-text .hdline {
+    width: 368px;
+    border: 1px solid #c7c7c7; }
+  .header-text .hd-h1 {
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-bottom: -15px; }
+  .header-text .hdtext {
+    width: 500px;
+    color: #ededed;
+    font-weight: 300;
+    padding-bottom: 35px; }
+  .header-text .hdlist-cont {
+    padding-top: 35px;
+    padding-left: 15px; }
+    .header-text .hdlist-cont .hdlist-box {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: left;
+      font-size: 20px;
+      font-weight: 300;
+      color: #ededed;
+      padding-bottom: 7px; }
+      .header-text .hdlist-cont .hdlist-box .hdpoint {
+        padding-right: 15px; }
+
+.hdbtn-cont {
+  padding: 25px 25px 70px 100px; }
+  .hdbtn-cont .btn {
+    display: inline-block;
+    position: relative;
+    background: #dd4510;
+    border-radius: 34px;
+    width: 370px;
+    height: 68px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 22px 0 0 30px;
+    box-sizing: border-box;
+    text-decoration: none; }
+    .hdbtn-cont .btn:hover {
+      background: #ffffff;
+      color: #dd4510; }
+    .hdbtn-cont .btn img {
+      padding-left: 25px; }
+
+/*# sourceMappingURL=main.css.map */

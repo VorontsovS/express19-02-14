@@ -1,0 +1,88 @@
+<!--<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= obj.title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= obj.title %></h1>
+    <p>Welcome to <%= obj.title %></p>
+  </body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:bold,medium,regular" rel="stylesheet">
+        <link rel="stylesheet" href="./stylesheets/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </html>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-info">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <div class="box-clock-place">
+                    <div class="box-clock">
+                        <div class="clock">
+                            <img src="images/clock.png" alt="clock">
+                        </div>
+                        <div>30 марта с 13:00 до 16:00</div>
+                    </div>
+                    <div class="box-place">
+                        <div class="place">
+                            <img src="images/placeholder.png" alt="placeholder" style="width: 22px; height: 22px;">
+                        </div>
+                        <div>Киев, Большая Житомирская, 33</div>
+                    </div>
+                </div>
+                <div class="header-tel">
+                    <div><%= obj.tel1 %><!--+38 (044) 35 36 0 36--></div>
+                    <div><%= obj.tel2 %><!--+7 (495) 504 36 06--></div>
+                </div>
+            </div>
+            <div class="header-text">
+                <div class="hdtext-masterclass">Живой мастер-класс</div>
+                <div class="hdtext-korp"><%= obj.name %><!--Дмитрия Карпачёва--></div>
+                <div class="hdline"></div>
+                <div class="hd-h1"><h1><%= obj.title %><!--Как дать ребёнку всё без связей и денег--></h1></div>
+                <div class="hdtext">Улучшите отношения с детьми <br>и будете спокойны за их будущее</div>
+                <div class="hdline"></div>
+                <div class="hdlist-cont">
+                    <div class="hdlist-box">
+                        <div class="hdpoint">
+                            <img src="images/Check1.png" alt="Check1" style="width: 22px; height: 22px;">
+                        </div>
+                        <div>Автор &#8212 практикующий психолог и телеведущий</div>    
+                    </div>
+                    <div class="hdlist-box">
+                        <div class="hdpoint">
+                            <img src="images/Check1.png" alt="Check1" style="width: 22px; height: 22px;">
+                        </div>
+                        <div>3 часа проверенных на практике рекомендаций</div>    
+                    </div>
+                    <div class="hdlist-box">
+                        <div class="hdpoint">
+                            <img src="images/Check1.png" alt="Check1" style="width: 22px; height: 22px;">
+                        </div>
+                        <div>Готовые к применению инструкции</div>    
+                    </div>
+                </div>
+            </div>
+            <div class="hdbtn-cont">
+                <a href="#" class="btn">
+                    <div class="btn-box">
+                        <span>Забронировать участие</span>
+                        <img src="images/Arrow.png" alt="arrow">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
